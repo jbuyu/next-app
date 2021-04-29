@@ -6,4 +6,7 @@
     .link {
         @apply hover:underline cursor-pointer
     }
+    .btn{
+        @apply text-red-700
+    }
 }
