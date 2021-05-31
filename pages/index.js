@@ -6,6 +6,7 @@ import {
   ViewGridIcon,
 } from "@heroicons/react/outline";
 import Image from "next/image";
+import { Footer } from "../components/Footer";
 
 export default function Home() {
   return (
@@ -41,11 +42,12 @@ export default function Home() {
           <input type="text" className="focus:outline-none flex-grow" />
           <MicrophoneIcon className="h-5" />
         </div>
-        <div>
-          <button className="btn">Search</button>
-          <button className="btn">Lucvky</button>
+        <div className="flex flex-col w-1/2 spae-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4">
+          <button className="btn">Google Search</button>
+          <button className="btn">I'm feeling Lucky</button>
         </div>
       </form>
+      <Footer/>
     </div>
   );
 }
