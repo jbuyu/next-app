@@ -25,11 +25,7 @@ function Header() {
           "
           onClick={() => (searchInputRef.current.value = "")}
         />
-        <MicrophoneIcon
-        className="mr-3 h-6 hidden sm:inline-flex text-blue-500 border-l-2 pl-4 border-gray-300"
-
-
-/>
+        <MicrophoneIcon className="mr-3 h-6 hidden sm:inline-flex text-blue-500 border-l-2 pl-4 border-gray-300" />
       </form>
     </header>
   );
