@@ -1,5 +1,6 @@
 module.exports ={
     images:{
-        domains:['cdn.svgporn.com']
+        domains:['cdn.svgporn.com', 'images.unsplash.com']
     }
 }
+
