@@ -5,7 +5,7 @@ import { MainHead } from "../components/MainHead";
 
 export default function Home() {
   return (
-    <div className>
+    <div className="flex flex-col justify-center items-center h-screen">
       <MainHead />
       <Header />
       {/* body */}

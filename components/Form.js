@@ -4,7 +4,7 @@ import Image from "next/image";
 import { MicrophoneIcon, SearchIcon } from "@heroicons/react/outline";
 export const Form = () => {
   return (
-    <form className="flex flex-col items-center mt-44 flex-grow">
+    <form className="flex flex-col items-center mt-44 flex-grow w-5/6">
       <Image
         height={100}
         width={200}
