@@ -4,6 +4,7 @@ import { Form } from "../components/Form";
 import { MainHead } from "../components/MainHead";
 
 export default function Home() {
+  console.log(process.env.REACT_APP_API_kEY)
   return (
     <div className="flex flex-col justify-center items-center h-screen">
       <MainHead />
