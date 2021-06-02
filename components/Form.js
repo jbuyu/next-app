@@ -32,7 +32,7 @@ export const Form = () => {
           <Avatar url="https://images.unsplash.com/photo-1564932436587-c6ea959a4053?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1120&q=80" />
         </div>
       </header>
-      <form className="flex flex-col items-center mt-44 flex-grow w-5/6">
+      <form className="flex flex-col items-center mt-44 flex-grow w-5/6 min-h-screen">
         <Image
           height={100}
           width={200}
